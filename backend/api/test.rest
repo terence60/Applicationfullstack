@@ -1,0 +1,7 @@
+POST http://localhost:8000/api/transactions
+Content-Type: application/json
+
+{
+    "text": "salaire Aoùt",
+    "amount": 2000.00
+}
