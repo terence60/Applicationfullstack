@@ -13,4 +13,4 @@ class Transaction(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
-        return f"{self.text}" ({self.amount})
+        return f"{self.text} ({self.amount})"
