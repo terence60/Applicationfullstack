@@ -1,10 +1,16 @@
-import Image from "next/image";
+"use client"
+type Transaction = {
+  id : string ;
+  text:string;
+  amount: number;
+  created_at: string;
+}
 
 export default function Home() {
   return (
-    <div>
+    <button className="btn btn-sm">
       terence
-    </div>
+    </button>
  
   );
 }
