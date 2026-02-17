@@ -12,4 +12,21 @@ GET http://localhost:8000/api/transactions/
 ###
 DELETE http://localhost:8000/api/transactions/41755b9e-bbb6-4e59-a97c-f3bce5f82a07/
 
+###
+PUT http://localhost:8000/api/transactions/9055c870-5bbe-4cf4-a09b-a279f8061e3c/
+Content-Type: application/json
 
+{
+    "text": "salaire février",
+    "amount": 12000.00
+}
+
+###
+
+PATCH http://localhost:8000/api/transactions/9055c870-5bbe-4cf4-a09b-a279f8061e3c/
+Content-Type: application/json
+
+{
+    "text": "salaire février",
+    "amount": 4000.00
+}
